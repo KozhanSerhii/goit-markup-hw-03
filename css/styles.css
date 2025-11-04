@@ -194,6 +194,8 @@ font-weight: 500;
 
 /* #region our-advantage */
 .our-advantage{
+    padding-top: 120px;
+    margin-bottom: 120px ;
 
 }
 
@@ -202,11 +204,15 @@ font-weight: 500;
 }
 
 .advantage-list{
-
+    display: flex;
+    width: calc((100% - 72) / 3);
+    gap: 24px;
 }
 
 .advantage-list-item{
-
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .advantage-title{
