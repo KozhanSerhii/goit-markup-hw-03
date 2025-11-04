@@ -252,7 +252,7 @@ font-weight: 500;
 
 .team-list{
     display: flex;
-    width: calc((100% - 72) / 3);
+    width: calc((100% - 72) / 4);
     gap: 24px;
 }
 
@@ -273,7 +273,7 @@ font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 8px;
     color:#2e2f42;
 }
 
