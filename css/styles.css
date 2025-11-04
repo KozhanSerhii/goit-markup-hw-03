@@ -258,9 +258,8 @@ font-weight: 500;
 .team-list-item{
     display: flex;
     flex-direction: column;
-    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-    gap: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .teammate-photo{
