@@ -1,0 +1,270 @@
+  /* font-family: "Raleway", sans-serif;
+    font-family: "Roboto",sans-serif; */
+
+
+/* #region common style */
+
+body{
+    font-family: Roboto, sans-serif;
+    color:#434455;
+    background-color:#FFFFFF;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+ list-style-type: none ;   
+}
+
+/* #endregion common style */
+
+/* #region header */
+
+.page-header{
+
+}
+
+.page-nav{
+
+}
+
+.page-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.page-logo:active{
+    color: #404bbf;
+}
+
+.part-logo{
+    font-family: "Raleway", sans-serif;
+    color: #2E2F42;
+}
+
+.nav-list-item{
+font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-link{
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.nav-link:focus,
+.nav-link:active,
+.nav-link:hover {
+    color: #404bbf;
+}
+
+.studio-link:active{
+    text-decoration: underline;
+}
+
+.header-address{
+    font-style: normal
+}
+
+.header-address-list{
+
+}
+
+.address-list-item{
+
+}
+
+.address-link{
+    color:#434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus{
+    color: #404BBF;
+}
+/* #endregion header */
+
+/* #region hero*/
+.section-hero{
+    background-color:#2E2F42 ;
+}
+
+.main-title{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.order-button{
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor:pointer;
+}
+
+.order-button:hover,
+.order-button:focus{
+    background-color: #404BBF;
+}
+/* #endregion hero*/
+
+/* #region our-advantage */
+.our-advantage{
+
+}
+
+.our-advantage-title{
+    color: #2e2f42;
+}
+
+.advantage-list{
+
+}
+
+.advantage-list-item{
+
+}
+
+.advantage-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text-advantage{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* #endregion our-advantage */
+
+/* #region our-team */
+.our-team{
+    background-color: #F4F4FD;
+}
+
+.team-title{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+.team-list{
+    
+}
+
+.team-list-item{
+    background-color: #FFFFFF;
+}
+
+.teammate-photo{
+
+}
+
+.teammate-name{
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:#2e2f42;
+}
+
+.teammate-position{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+/* #endregion our-team */
+
+/* #region our-portfolio */
+.our-portfolio{
+
+}
+
+.portfolio-title{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+.portfolio-list{
+
+}
+
+.portfolio-list-item{
+
+}
+
+.portfolio-photo{
+
+}
+
+.portfolio-item-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.item-description{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* #endregion our-portfolio */
+
+/* #region footer */
+.page-footer{
+    background-color: #2E2F42;
+}
+
+.footer-page-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-part-logo{
+    color: #f4f4fd;
+}
+
+
+.text-footer{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+/* #endregion footer */
