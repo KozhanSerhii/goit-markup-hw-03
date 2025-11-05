@@ -197,20 +197,13 @@ font-weight: 500;
     padding: 120px 0;
 }
 
-.our-advantage-title{
-    color: #2e2f42;
-}
-
 .advantage-list{
     display: flex;
-    width: calc((100% - 72) / 3);
     gap: 24px;
 }
 
 .advantage-list-item{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .advantage-title{
@@ -219,6 +212,7 @@ font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .text-advantage{
@@ -259,7 +253,8 @@ font-weight: 500;
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
+    gap: 24px;
 }
 
 .teammate-photo{
